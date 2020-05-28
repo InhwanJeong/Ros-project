@@ -1,0 +1,5 @@
+<launch>
+    <node name="lidar_measure11" pkg="deu_maze" type="lidarMeasurement.py"/>
+    <node name="escape_algorithm11" pkg="deu_maze" type="escapeAlgorithm.py"/>
+
+</launch>
